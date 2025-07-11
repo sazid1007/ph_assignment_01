@@ -3,6 +3,14 @@
     padding: 0;
 }
 
+.inter-logo {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     color: black;
@@ -60,7 +68,7 @@ body {
 
 .hero {
     background-image: url('Assets/Hero-bg.png');
-    background-size: cover;
+    background-size:contain;
     height: 100vh;
     text-align: center;
     padding: 20px;
@@ -73,6 +81,7 @@ body {
 
 .logo {
     float: left;
+    font-family: 'Inter', sans-serif;
 }
 
 .logo h2 {
@@ -90,7 +99,7 @@ body {
 }
 
 .banner h1 {
-    color: black;
+    color: #252432;
     font-size: 48px;
     margin-bottom: 30px;
 }
