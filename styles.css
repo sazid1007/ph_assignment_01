@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.section {
+    padding: 100px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.gray-bg {
+    background-color: #f8f9fa;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.text-content {
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+    text-align: left;
+}
+
+.image-content {
+    float: right;
+    width: 50%;
+}
+
+.form-content {
+    float: right;
+    width: 60%;
+    background: white;
+    padding: 40px;
+    text-align: left;
+}
+
+.btn {
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hero {
+    background-image: url('Assets/Hero-bg.png');
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbar {
+    overflow: hidden;
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h2 {
+    color: #4E47FF;
+    font-size: 24px;
+}
+
+.navbar .btn {
+    float: right;
+    padding: 12px 24px;
+}
+
+.banner {
+    margin-top: 200px;
+}
+
+.banner h1 {
+    color: black;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+.banner .btn {
+    font-size: 18px;
+}
+
+.text-content h2 {
+    font-size: 36px;
+    color: #2c2c2c;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.image-content img {
+    width: 100%;
+    height: auto;
+}
+
+.stats {
+    overflow: hidden;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.stat-item {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+}
+
+.stat-item h3 {
+    font-size: 48px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.stat-item p {
+    font-size: 18px;
+    color: #666;
+}
+
+.feedback-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.stars {
+    margin-bottom: 20px;
+}
+
+.stars img {
+    width: 24px;
+    height: 24px;
+    margin: 0 2px;
+}
+
+.feedback-content h3 {
+    font-size: 28px;
+    color: #2c2c2c;
+    margin-bottom: 15px;
+}
+
+.feedback-content p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.reviewer {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.reviewer img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.reviewer-info {
+    float: left;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.reviewer-info h4 {
+    color: #2c2c2c;
+    margin-bottom: 5px;
+}
+
+.reviewer-info span {
+    color: #888;
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2c2c2c;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    font-size: 16px;
+}
+
+.form-content .btn {
+    width: 100%;
+}
+
+.footer {
+    padding: 60px 20px;
+    background-color: #2c2c2c;
+    color: white;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 28px;
+    color: #4E47FF;
+    margin-bottom: 10px;
+}
+
+.footer-content p {
+    font-size: 18px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.footer-nav a {
+    color: #ccc;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.footer-nav a:hover {
+    color: #4E47FF;
+}
